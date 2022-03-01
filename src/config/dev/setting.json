@@ -1,0 +1,11 @@
+{
+  "mongodb": {
+		"***": "mongodb://localhost:27017/***"
+	},
+	"oss": {
+    "accessKeyId": "LTAI5tNb****Hr5upfy5",
+    "accessKeySecret": "2fRwKzfo******KIAeDKKVdGn",
+    "bucket": "f**d",
+    "region": "oss-cn-beijing"
+  }
+}

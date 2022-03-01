@@ -1,0 +1,30 @@
+{
+  "name": "template-koa2",
+  "version": "1.0.0",
+  "description": "<%=description%>",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=dev nodemon ./src/main.js",
+    "pro": "NODE_ENV=pro nodemon ./src/main.js"
+  },
+  "keywords": [],
+  "author": "<%=author%>",
+  "license": "ISC",
+  "dependencies": {
+    "ali-oss": "^6.16.0",
+    "axios": "^0.24.0",
+    "bcryptjs": "^2.4.3",
+    "dayjs": "^1.10.7",
+    "dotenv": "^10.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.4",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.1.1",
+    "koa-static": "^5.0.0",
+    "mongoose": "^5.13.14",
+    "node-uuid": "^1.4.8"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
